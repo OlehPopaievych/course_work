@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>webskill 23</title>
+<style>
+h3{
+  font-size:26px;
+  background:linear-gradient(to left,#5d5d5d,#ddd);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+.article-item{
+  display:flex;
+  align-items:center;
+}
+.article-item .article-img,.article-item .article-text{
+  flex:50%;
+}
+.article-item:nth-child(odd){
+  flex-direction:row-reverse;
+}
+@media (max-width:991px){
+  .article-item,.article-item:nth-child(odd){
+    flex-direction:column-reverse;
+  }
+}
+@media (max-width:575px){
+  body{
+    background-color:#fff;
+    margin:0;
+  }
+  
+  h1{
+    color:#000;
+  }
+  
+  h3{
+    background: #484747;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+  }
+}
+
+body{
+	background-image: url(autosport.jpg);
+	background-size: cover;
+}
+
+h1{
+	color: RED;
+}
+h2{
+	color: RED;
+}
+
+a{
+	color: WHITE;
+}
+</style>
+</head>
+<body>
+
+<h1 align="center">Ласкаво просимо</h1>
+<h2 align="center">Тут ви можете дізнатись
+про найвитатніші 
+машини в історії автоспорту</h2>
+
+<h2 align="center"><a href="19.html">WORLD RALLY CHAMPIONSHIP</a></h2>
+<h2 align="center"><a href="porsche.html">24 HOURS OF LE-MANS</a></h2>
+<h2 align="center"><a href="audi.html">IMSA</a></h2>
+<h2 align="center"><a href="mclaren-formula1.html">FORMULA-1</a></h2>
+<h2 align="center"><a href="lancia-delta.html">GROUP-B</a></h2>
+<h2 align="center"><a href="mazda-24h-dayt.html">24 HOURS OF DAYTONA</a></h2>
+</body>
+</html>
